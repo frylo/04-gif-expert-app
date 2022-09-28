@@ -6,7 +6,7 @@ export const AddCategory = ({ onAddCategory }) => {
   const [inputValue, setInputValue] = useState('')
 
   const onInpuntChange = ({ target }) => {
-    setInputValue(target.value)
+    setInputValue(target.value);
   }
 
   const onSubmit = e => {
